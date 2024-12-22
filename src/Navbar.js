@@ -17,8 +17,8 @@ function Navbar() {
       <div className="header-text">
         <h2>Plants</h2>
       </div>
-      <div className="cart">
-        <img className="cart-image" src={cartImg} alt="cart-Image" />
+      <div className="shopping-cart">
+        <img className="cart-icon" src={cartImg} alt="cart-Icon" />
       </div>
     </div>
   );
