@@ -16,7 +16,7 @@ import plantImg12 from "./images/jasmine.jpg";
 
 function ProductGridwall() {
   return (
-    <div className="product-container">
+    <div className="product-page">
       <Navbar />
       <div className="product-title">
         <p>Air Purifying Plants</p>
@@ -57,7 +57,6 @@ function ProductGridwall() {
             <div className="image-container">
               <img className="product-image" src={plantImg3} alt="Aloe Vera" />
             </div>
-
             <h3>Aloe Vera</h3>
             <p className="price">$16</p>
             <p className="description">Famous for its healing properties.</p>
@@ -70,7 +69,6 @@ function ProductGridwall() {
             <div className="image-container">
               <img className="product-image" src={plantImg4} alt="Peace Lily" />
             </div>
-
             <h3>Peace Lily </h3>
             <p className="price">$18</p>
             <p className="description">

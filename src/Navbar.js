@@ -1,8 +1,15 @@
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 import logoImg from "./images/logo.png";
 import cartImg from "./images/cart.png";
 
 function Navbar() {
+  const navigate = useNavigate();
+
+  const handleGetStartedClick = () => {
+    navigate("/cartpage");
+  };
+
   return (
     <div className="nav-bar">
       <div className="logo">
@@ -18,7 +25,12 @@ function Navbar() {
         <h2>Plants</h2>
       </div>
       <div className="shopping-cart">
-        <img className="cart-icon" src={cartImg} alt="cart-Icon" />
+        <img
+          className="cart-icon"
+          src={cartImg}
+          alt="cart-Icon"
+          onClick={handleGetStartedClick}
+        />
       </div>
     </div>
   );
