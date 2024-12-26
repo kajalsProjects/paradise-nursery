@@ -2,7 +2,7 @@ import "./Cart.css";
 import Navbar from "./Navbar";
 import plantImg4 from "./images/peacelily.jpg";
 
-function Cart() {
+export default function Cart() {
   return (
     <div className="shopping-cart-page">
       <Navbar />
@@ -34,5 +34,3 @@ function Cart() {
     </div>
   );
 }
-
-export default Cart;

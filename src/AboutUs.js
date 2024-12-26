@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./AboutUs.css";
 import { useNavigate } from "react-router-dom";
 
-function AboutUs() {
+export default function AboutUs() {
   const navigate = useNavigate();
 
   const handleGetStartedClick = () => {
@@ -52,5 +52,3 @@ function AboutUs() {
     </div>
   );
 }
-
-export default AboutUs;

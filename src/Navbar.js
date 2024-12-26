@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import logoImg from "./images/logo.png";
 import cartImg from "./images/cart.png";
 
-function Navbar() {
+export default function Navbar() {
   const navigate = useNavigate();
 
   const handleGetStartedClick = () => {
@@ -35,5 +35,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;
