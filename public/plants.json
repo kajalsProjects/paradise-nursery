@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Snake Plant",
+    "image": "snakeplant.jpg",
+    "description": "Produces oxygen at night.",
+    "cost": "$15"
+  },
+  {
+    "id": 2,
+    "name": "Spider Plant",
+    "image": "spiderplant.jpg",
+    "description": "Graceful,air-purifying green beauty.",
+    "cost": "$12"
+  },
+  {
+    "id": 3,
+    "name": "Aloe Vera",
+    "image": "aloe.jpg",
+    "description": "It purify indoor air by removing toxins.",
+    "cost": "$16"
+  },
+  {
+    "id": 4,
+    "name": "Peace Lily",
+    "image": "peacelily.jpg",
+    "description": "Produces oxygen at night.",
+    "cost": "$18"
+  },
+  {
+    "id": 5,
+    "name": "Rubber Plant",
+    "image": "rubberplant.jpg",
+    "description": "Glossy leaves,low-maintenance elegance.",
+    "cost": "$20"
+  },
+  {
+    "id": 6,
+    "name": "Boston Fern",
+    "image": "bostonfern.jpg",
+    "description": "Air-purifying lush green foliage.",
+    "cost": "$18"
+  }
+]
